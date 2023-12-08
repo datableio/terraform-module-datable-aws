@@ -8,7 +8,7 @@ provider "aws" {
 }
 
 module "datable" {
-  source = "github.com/datableio/terraform-module-datable"
+  source = "github.com/datableio/terraform-module-datable-aws"
   
   # Datable
   connect_key = "<TEST CONNECT KEY>"
